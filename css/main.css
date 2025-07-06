@@ -1,0 +1,27 @@
+.main-container {
+    max-width: 906px;
+    margin: 0 auto;
+}
+
+.main-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 65px;
+    margin-bottom: 130px;
+    flex-wrap: wrap;
+}
+
+.main-card {
+    flex: 1 1 0;
+    max-width: calc(50%-31px);
+}
+
+.main-card--lifestyle {
+    color: #B4AD9E;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
